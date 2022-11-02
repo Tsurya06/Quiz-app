@@ -211,9 +211,9 @@ function queCounter(index) {
     let totalQueCounTag =
         "<span><p>" +
         index +
-        "</p> of <p>" +
+        "</p> / <p>" +
         questions.length +
-        "</p> Questions</span>";
+        "</p> </span>";
     bottom_ques_counter.innerHTML = totalQueCounTag; //adding new span tag inside bottom_ques_counter
 }
 
